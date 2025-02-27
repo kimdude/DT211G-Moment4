@@ -117,23 +117,6 @@ section {
     display: none;
 }
 
-/* Keyframe */
-@keyframes transformDiv {
-    0% {
-        bottom: -50%;
-        left: 0%;
-        box-shadow: -10px 5px 5px base.$primary-color-dm;
-    } 50% {
-        bottom: 50%;
-        left: 50%;
-        box-shadow: 0px 35px 5px base.$primary-color-dm;
-    } 100% {
-        bottom: -50%;
-        left: 100%;
-        box-shadow: 10px 5px 5px base.$primary-color-dm;
-    }
-}
-
 /* Screens with dark-mode */
 @media (prefers-color-scheme: dark) {
     a, p, h1, h2 { color: #fff; }
