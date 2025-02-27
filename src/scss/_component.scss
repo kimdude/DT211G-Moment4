@@ -117,6 +117,12 @@ section {
     display: none;
 }
 
+/* Animation-page */
+#loadIcon {
+    @include resize(70px,circle);
+    background-color: base.$tertiary-color;
+}
+
 /* Screens with dark-mode */
 @media (prefers-color-scheme: dark) {
     a, p, h1, h2 { color: #fff; }
